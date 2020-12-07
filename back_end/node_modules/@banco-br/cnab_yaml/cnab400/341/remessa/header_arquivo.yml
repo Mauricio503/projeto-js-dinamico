@@ -1,0 +1,47 @@
+literal_remessa:
+  pos: [1, 9]
+  picture: "X(9)"
+  default: "01REMESSA"
+
+brancos01:
+  pos: [10, 26]
+  picture: "X(17)"
+  default: "01COBRANCA"
+
+codigo_convenio:
+  pos: [27, 39]
+  picture: "9(12)"
+
+brancos02:
+  pos: [40, 46]
+  picture: "X(8)"
+  default: ""
+
+nome_empresa:
+  pos: [47, 76]
+  picture: "X(30)"
+
+literal_banco:
+  pos: [77, 87]
+  picture: "X(16)"
+  default: "341BANCO ITAU SA"
+
+brancos03:
+  pos: [88, 94]
+  picture: "X(2)"
+  default: ""
+
+data_geracao:
+  pos: [95, 100]
+  picture: "9(06)"
+  date_format: "%d%m%y"
+
+brancos04:
+  pos: [101, 394]
+  picture: "X(294)"
+  default: ""
+
+numero_sequencial:
+  pos: [395, 400]
+  picture: "9(06)"
+  default: "1"

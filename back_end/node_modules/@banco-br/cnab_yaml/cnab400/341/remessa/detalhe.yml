@@ -1,0 +1,153 @@
+tipo_registro:
+  pos: [1, 1]
+  picture: "9(01)"
+  default: "1"
+
+codigo_inscricao:
+  pos: [2, 4]
+  picture: "9(2)"
+  default: ""
+  
+numero_inscricao:
+  pos: [2, 17]
+  picture: "9(14)"
+  default: ""
+
+codigo_convenio:
+  pos: [18, 30]
+  picture: "9(12)"
+
+brancos01:
+  pos: [31, 37]
+  picture: "X(4)"
+  default: ""
+  
+brancos02:
+  pos: [31, 37]
+  picture: "9(4)"
+  default: ""
+
+uso_empresa:
+  pos: [38, 62]
+  picture: "X(25)"
+
+numero_documento:
+  pos: [63, 72]
+  picture: "X(8)"
+
+# mensagem:
+  # pos: [73, 104]
+  # picture: "9(32)"
+
+brancos03:
+  pos: [105, 107]
+  picture: "9(13)"
+  default: ""
+  
+numero_carteira:
+  pos: [108, 108]
+  picture: "X(03)"
+  default: "109"
+  
+brancos04:
+  pos: [105, 107]
+  picture: "X(21)"
+  default: ""
+  
+codigo_carteira:
+  pos: [108, 108]
+  picture: "X(01)"
+  default: "I"
+
+codigo_ocorrencia:
+  pos: [109, 110]
+  picture: "9(02)"
+  default: "01"
+
+nosso_numero:
+  pos: [111, 120]
+  picture: "X(10)"
+
+vencimento:
+  pos: [121, 126]
+  picture: "9(06)"
+  date_format: "%d%m%y"
+
+valor_titulo:
+  pos: [127, 139]
+  picture: "9(11)V9(2)"
+
+codigo_banco:
+  pos: [140, 142]
+  picture: "9(03)"
+  default: "341"
+
+brancos05:
+  pos: [143, 147]
+  picture: "9(5)"
+  default: ""
+
+especie:
+  pos: [148, 149]
+  picture: "X(02)"
+  default: "99"
+
+aceite:
+  pos: [150, 150]
+  picture: "X(01)"
+  default: "N"
+
+data_emissao:
+  pos: [151, 156]
+  picture: "9(06)"
+  date_format: "%d%m%y"
+
+brancos06:
+  pos: [157, 218]
+  picture: "X(62)"
+  default: ""
+
+sacado_codigo_inscricao:
+  pos: [219, 220]
+  picture: "9(02)"
+
+sacado_numero_inscricao:
+  pos: [221, 234]
+  picture: "9(14)"
+
+nome:
+  pos: [235, 269]
+  picture: "X(35)"
+
+brancos07:
+  pos: [270, 274]
+  picture: "X(5)"
+  default: ""
+
+logradouro:
+  pos: [275, 314]
+  picture: "X(40)"
+
+bairro:
+  pos: [315, 326]
+  picture: "X(12)"
+
+cep:
+  pos: [327, 334]
+  picture: "9(08)"
+
+cidade:
+  pos: [335, 349]
+  picture: "X(15)"
+
+estado:
+  pos: [350, 351]
+  picture: "X(02)"
+
+sacador:
+  pos: [352, 394]
+  picture: "X(43)"
+
+numero_sequencial:
+  pos: [395, 400]
+  picture: "9(06)"
