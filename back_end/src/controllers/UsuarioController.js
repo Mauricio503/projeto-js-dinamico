@@ -1,7 +1,7 @@
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const authConfig = require("../../config/auth");
-const UsuarioRepository = require("../repository/cadastro/UsuarioRepository");
+const authConfig = require("../config/auth");
+const UsuarioRepository = require("../repositorys/UsuarioRepository");
 
 module.exports = {
   async usuario(req,res){
