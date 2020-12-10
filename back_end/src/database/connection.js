@@ -7,7 +7,7 @@ module.exports = async(req,model) => {
     var resultSlice = null;
 
     var queryString =
-      "select * from " + req.entidade +".usuario";
+      "select * from usuario";
 
     await con
       .query(queryString, {
